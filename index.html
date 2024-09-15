@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duck Form</title>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+  <link rel="stylesheet" href="https://gist.github.com/DavidWells/18e73022e723037a50d6.js">
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <main class="screen">
+        <form class="form" autocomplete="off">
+            <div class="container">
+                <div class="form-left">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" required>
+            
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+                    <label for="message-regarding">Message Regarding</label>
+                    <input type="text" id="message-regarding" name="message-regarding"  required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </div>
+                <div class="form-right">
+                    <img src="images/duck image.png" alt="Duck Image">
+                  </div>
+                </div>
+        </form>
+    </main>
+</body>
